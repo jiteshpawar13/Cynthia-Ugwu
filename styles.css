@@ -17,6 +17,7 @@ html, body {
     width: 100%;
     height: 100vh;
     background: black;
+    color: #fff;
 }
 
 #nav {
@@ -31,4 +32,32 @@ html, body {
     text-decoration: none;
     font-size: 18px;
     color: #fff;
+}
+
+#heading {
+    margin-top: 90px;
+}
+
+#heading h1{
+    line-height: 1;
+    opacity: 0.6;
+    padding-left: 30px;
+    font-size: 10vw;
+    /* font-family:'General Sans Medium'; */
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#heading :nth-child(2) {
+    margin-left: 180px;
+}
+
+.textcontent {
+    width: fit-content;
+}
+
+.textcontent h5 {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
 }
