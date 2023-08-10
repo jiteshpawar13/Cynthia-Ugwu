@@ -381,4 +381,14 @@ body {
     padding: 0 10px;
     font-size: 4.3vw;
   }
+
+  #subscribe h5,h3{
+    font-weight: 500;
+  }
+
+  #main-footer {
+    flex-direction: column-reverse;
+    align-items: self-start;
+    padding: 100px 10px;
+  }
 }
