@@ -391,4 +391,12 @@ body {
     align-items: self-start;
     padding: 100px 10px;
   }
+
+  #main-footer .footerelem a {
+    /* padding: 0px 10px; */
+  }
+
+  #main-footer .footerelem {
+    padding: 10px 10px
+  }
 }
