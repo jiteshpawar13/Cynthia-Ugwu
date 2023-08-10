@@ -369,6 +369,7 @@ body {
 
   #textabout a {
     padding: 7px 20px;
+    font-size: 4.3vw;
   }
 
   #textabout h5 {
@@ -378,5 +379,6 @@ body {
   #about img {
     width: 280px;
     padding: 0 10px;
+    font-size: 4.3vw;
   }
 }
