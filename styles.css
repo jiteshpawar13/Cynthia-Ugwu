@@ -330,9 +330,10 @@ body {
   }
 
   #second {
-    height: 100vh;
-    padding-top: 50%;
+    height: 80vh;
+    padding-top: 20%;
     padding-left: 30px;
+    background-color: red;
   }
 
   #second .elem h1{
@@ -342,6 +343,10 @@ body {
 
   #second .elem h5 {
     font-weight: 400;
+  }
+
+  #second .elem {
+    padding: 25px 0;
   }
 
   #about {
