@@ -356,13 +356,14 @@ body {
     flex-direction: column;
     align-items: flex-start;
     margin: 10 30px;
-    padding: 0 8px;
+    padding: 0 10px;
     background-color: #000;
     color: #fff;
   }
 
   #textabout {
     width: 23rem;
+    padding: 10px;
   }
 
   #textabout a {
@@ -371,5 +372,10 @@ body {
 
   #textabout h5 {
     font-weight: 500;
+  }
+
+  #about img {
+    width: 280px;
+    padding: 0 10px;
   }
 }
