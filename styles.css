@@ -364,6 +364,7 @@ body {
   #textabout {
     width: 23rem;
     padding: 10px;
+    font-size: 4.3vw;
   }
 
   #textabout a {
