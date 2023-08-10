@@ -390,6 +390,7 @@ body {
     flex-direction: column-reverse;
     align-items: self-start;
     padding: 100px 10px;
+    padding-bottom: 20px;
   }
 
   #main-footer .footerelem a {
