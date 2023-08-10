@@ -214,6 +214,11 @@ body {
   text-decoration: none;
 }
 
+#textabout a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
 #subscribe {
   color: #fff;
   padding: 20px 30px;
