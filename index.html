@@ -6,8 +6,10 @@
     <title>Cyntia Ugwu</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="loco.css">
 </head>
 <body>
+    <div id="minicircle"></div>
     <div id="main">
         <div id="landing-page">
             <div id="nav">
@@ -15,15 +17,25 @@
                 <h4>MENU +</h4>
             </div>
             <div id="heading">
-                <h1>product</h1>
+                <div class="bounding">
+                    <h1 class="boundingelem">product</h1>
+                </div>
                 <div class="textcontent">
-                    <h1>designer</h1>
-                    <h5>based in toronto</h5>
+                    <div class="bounding">
+                        <h1 class="boundingelem">designer</h1>
+                    </div>
+                    <div class="bounding">
+                        <h5 class="boundingelem">based in toronto</h5>
+                    </div>
                 </div>
             </div>
             <div id="side-heading">
-                <h5>available for freelance</h5>
-                <h5>work from may '23</h5>
+                <div class="bounding">
+                    <h5 class="boundingelem">available for freelance</h5>
+                </div>
+                <div class="bounding">
+                    <h5 class="boundingelem">work from may '23</h5>
+                </div>
             </div>
             <div id="footer">
                 <a href="#">currently working at yml <i class="ri-arrow-right-up-line"></i></a>
@@ -82,5 +94,9 @@
     
         </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
