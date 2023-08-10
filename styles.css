@@ -258,9 +258,9 @@ html, body {
     gap: 30px;
 }
 
-@media screen and (max-width: 400px){
+/* @media screen and (max-width: 400px){
     #minicircle {
-        display: none;
+        opacity: 0;
     }
 
     #heading .bounding h1{
@@ -290,4 +290,8 @@ html, body {
     #footer a {
         font-size: 3vw;
     }
-}
+
+    .elem img {
+        opacity: 0;
+    }
+} */
